@@ -1,0 +1,41 @@
+body {
+    background-image: url(./img/hex-background-networking.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navigation-bar-only-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navigation-bar {
+        display: none;
+    }
+
+    .navigation-bar-only-mobile {
+        display: block;
+        height: 50px;
+        background: rgba(0, 0, 0, 0.2);
+
+        text-align: center;
+        align-content: center;
+
+        a {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+
+    }
+}
