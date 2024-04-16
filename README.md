@@ -11,3 +11,7 @@ added Ubicacion
 also added _blank tager for a label
 
 Extend time frame for pictures in carrousel
+
+Add attention frames ie. Mon to Fri 8hs to 17hs - DONE
+
+For mobile the carrousel is almost invisible. Maybe not a carrousel for mobile view, something else.
