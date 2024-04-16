@@ -15,3 +15,5 @@ Extend time frame for pictures in carrousel
 Add attention frames ie. Mon to Fri 8hs to 17hs - DONE
 
 For mobile the carrousel is almost invisible. Maybe not a carrousel for mobile view, something else.
+
+added google maps iframe but I inadvertently published the api key in public sources. Changed the api key and erased it from index.html guess i will have to add it when i upload it to a private host.
