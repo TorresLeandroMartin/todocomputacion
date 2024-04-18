@@ -12,6 +12,10 @@ body {
     display: none;
 }
 
+#text-wall-only-for-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .navigation-bar {
         display: none;
@@ -19,7 +23,7 @@ body {
 
     .navigation-bar-only-mobile {
         display: block;
-        height: 50px;
+        height: 80px;
 
         text-align: center;
         align-content: center;
@@ -27,12 +31,20 @@ body {
         a {
             font-size: 30px;
             color: white;
-            text-decoration: none;
         }
+    }
+
+    /* hide carrousel because on mobile you cant see such small image */
+    #servicios {
+        display: none;
     }
 
     .styles-for-footer-on-mobile {
         font-size: 12px;
+    }
+
+    #text-wall-only-for-mobile {
+        display: block;
     }
 
 }
