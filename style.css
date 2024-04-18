@@ -5,6 +5,7 @@ body {
     background-position: center;
     background-size: cover;
 
+
 }
 
 .navigation-bar-only-mobile {
@@ -30,11 +31,8 @@ body {
         }
     }
 
-    .footer {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-
+    .styles-for-footer-on-mobile {
+        font-size: 12px;
     }
+
 }
